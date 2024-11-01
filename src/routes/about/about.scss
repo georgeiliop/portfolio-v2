@@ -1,0 +1,141 @@
+@import "../../assets/global.scss";
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   padding-top: 10vw;
+  //   padding-bottom: 10vw;
+  //   border: 3px red solid;
+  // height: 60vh;
+  min-height: 60vh;
+  background-color: $mainColor;
+  //   padding: 0px $pagePaddingHorizontal;
+
+  padding: $pagePaddingVertical $pagePaddingHorizontal;
+  //   padding-bottom: 0px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-column-gap: 3em;
+  grid-row-gap: 0.5em;
+}
+
+.profile-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-size: calc(17px + 0.1vw);
+  font-weight: 400;
+  font-family: "neue-haas-display", sans-serif;
+  max-width: 800px;
+  letter-spacing: 1px;
+
+  @media (max-width: 768px) {
+    & {
+      padding-top: 50px;
+    }
+  }
+}
+
+.img-wrapper {
+  position: relative;
+
+  .img {
+    position: relative; /* Ensure .img is relative for :after to be positioned correctly */
+    display: inline-block; /* Ensures .img wraps around the content (the image) */
+    overflow: hidden;
+  }
+  .img img {
+    width: auto;
+    width: 100%;
+
+    min-width: auto;
+    max-width: 300px;
+    display: block;
+    object-fit: contain;
+  }
+
+  .img:after {
+    content: "";
+    position: absolute; /* Make the grain overlay relative to .img */
+    top: 0;
+    left: 0;
+    width: 250%;
+    height: 250%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
+    background-size: cover; /* Ensure the grain texture covers the entire image */
+    opacity: 0.15; /* Set the opacity to create a subtle grain effect */
+    pointer-events: none; /* Prevent the grain from interfering with interaction */
+    animation: animateGrain 8s steps(10) infinite;
+  }
+
+  .sparkle-icon {
+    font-family: wild-west-icons;
+    font-size: 108px;
+    position: absolute;
+    top: -70px;
+    left: -8vw;
+    z-index: 2;
+  }
+
+  @media (max-width: 1400px) {
+    .sparkle-icon {
+      left: -4vw;
+    }
+  }
+
+  @media (max-width: 479px) {
+    .img {
+      max-width: 75vw;
+    }
+    .sparkle-icon {
+      top: -16vw;
+      left: -10vw;
+      font-size: 30vw;
+    }
+  }
+}
+
+@keyframes animateGrain {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -10%);
+  }
+  20% {
+    transform: translate(-15%, -20%);
+  }
+  30% {
+    transform: translate(-5%, -10%);
+  }
+  40% {
+    transform: translate(-15%, -20%);
+  }
+
+  50% {
+    transform: translate(-5%, -10%);
+  }
+  60% {
+    transform: translate(-15%, -20%);
+  }
+  70% {
+    transform: translate(-5%, -10%);
+  }
+  80% {
+    transform: translate(-15%, -20%);
+  }
+  90% {
+    transform: translate(-5%, -10%);
+  }
+  100% {
+    transform: translate(-15%, -20%);
+  }
+}

@@ -1,0 +1,79 @@
+@import "../../assets/global.scss";
+
+.extra {
+  background-color: black;
+  color: $extraRed;
+  padding: 2vw $pagePaddingHorizontal;
+  padding-bottom: 4vh;
+  overflow-y: hidden;
+
+  .header {
+    background-color: black;
+    padding: 0;
+    display: flex;
+    grid-column-gap: 40px;
+    margin-bottom: 6vh;
+    // grid-row-gap: 100px;
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (max-width: 767px) {
+      flex-wrap: wrap; // Enable wrapping when viewport is below 900px
+    }
+
+    @media (min-width: 1200px) {
+      //   grid-column-gap: 0px;
+    }
+
+    .title {
+      font-size: calc(24px + 0.4vw);
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+      animation: gridFade 2s ease-in-out infinite;
+
+      @keyframes gridFade {
+        0% {
+          opacity: 0.5; /* Subtle start */
+        }
+        50% {
+          opacity: 1; /* Max opacity at the middle */
+        }
+        100% {
+          opacity: 0.5; /* Fade out back to subtle */
+        }
+      }
+    }
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+
+    .top-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      grid-column-gap: 4vw;
+    }
+  }
+
+  .extras-button-container {
+    position: fixed;
+    bottom: -100px;
+    right: 2vw;
+
+    @media (max-width: 767px) {
+      transform: scale(0.8);
+    }
+
+    @media (max-width: 479px) {
+      transform: scale(0.5);
+      right: -4vw;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+@import "./assets/global.scss";
+
+@font-face {
+  font-family: "drover"; /* Name your font */
+  src: url("././assets/fonts/drover/drover.ttf") format("ttf"); /* Adjust the path accordingly */
+  font-weight: normal; /* Set to 'bold' if you have a bold version */
+  font-style: normal; /* Set to 'italic' if you have an italic version */
+}
+/* For the Black weight */
+@font-face {
+  font-family: "neue-haas-display";
+  src: url("././assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBlack.ttf")
+    format("truetype");
+  font-weight: 900; /* Use numeric value for the black/heavy weight */
+  font-style: normal;
+}
+
+/* For the Light weight */
+@font-face {
+  font-family: "neue-haas-display";
+  src: url("././assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayLight.ttf")
+    format("truetype");
+  font-weight: 300; /* 'Light' corresponds to 300 */
+  font-style: normal;
+}
+
+/* For the Light weight */
+@font-face {
+  font-family: "neue-haas-display";
+  src: url("././assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* For the Bold weight */
+@font-face {
+  font-family: "neue-haas-display";
+  src: url("././assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBold.ttf")
+    format("truetype");
+  font-weight: 700; /* 'Bold' corresponds to 700 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "wild-west-icons"; /* Name your font */
+  src: url("././assets/fonts/wild_west_icons/Wild\ West\ Icons.ttf")
+    format("truetype"); /* Adjust the path accordingly */
+
+  font-weight: normal; /* Set to 'bold' if you have a bold version */
+  font-style: normal; /* Set to 'italic' if you have an italic version */
+}
+
+@font-face {
+  font-family: "vanilla-whale"; /* Name your font */
+  src: url("././assets/fonts/vanilla_whale/Vanilla\ Whale.otf")
+    format("opentype"); /* Adjust the path accordingly */
+  font-weight: normal; /* Set to 'bold' if you have a bold version */
+  font-style: normal; /* Set to 'italic' if you have an italic version */
+}
+
+.app {
+  background-color: $mainColor;
+  color: black;
+}
+
+body.menu-open {
+  // --cursor-color: #dda15e;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &::-webkit-scrollbar {
+    width: 6px; /* width of the entire scrollbar */
+    background-color: black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border: 4px solid $mainColor;
+  }
+
+  // --cursor-color: #000000;
+}
+
+body.extra-route {
+  &::-webkit-scrollbar {
+    width: 6px; /* width of the entire scrollbar */
+    background-color: black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border: 4px solid $extraRed;
+  }
+
+  // --cursor-color: #ff0303;
+}

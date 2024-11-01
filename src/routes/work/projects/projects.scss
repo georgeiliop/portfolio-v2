@@ -1,0 +1,20 @@
+@import "../../../assets/global.scss";
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: $sectionPadding;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 1vw;
+  z-index: 4;
+}
+
+.extras-button-wrapper {
+  display: flex;
+  justify-content: center;
+}

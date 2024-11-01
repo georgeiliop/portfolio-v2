@@ -1,0 +1,49 @@
+@import "../../../assets/global.scss";
+
+.experience {
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: $sectionPadding;
+}
+
+.achievements-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tags-container {
+  display: flex;
+  grid-column-gap: 0.6em;
+  grid-row-gap: 0.8em;
+  flex-wrap: wrap;
+}
+
+.tire-container {
+  display: flex;
+  justify-content: flex-end;
+  // position: absolute;
+  // right: 6%;
+  overflow: hidden;
+  padding-top: 4vh;
+  // padding-right: 1vh;
+}
+
+.tire-icon {
+  font-family: wild-west-icons, sans-serif;
+  // width: calc(60px + 4vw);
+  // height: calc(64px + 4vw);
+  // line-height: calc(60px + 4vw);
+  animation: spin 16s linear infinite; /* Animation properties */
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

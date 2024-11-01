@@ -1,0 +1,44 @@
+.extras-button {
+  font-family: wild-west-icons, sans-serif;
+  font-size: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 1s;
+  text-decoration: none;
+  color: inherit;
+  z-index: 3;
+
+  // line-height: 500px;
+
+  &:hover {
+    transform: rotateY(360deg);
+  }
+
+  .text {
+    font-family: drover, sans-serif;
+    font-size: 20px;
+    position: absolute;
+
+    &.back-to-home {
+      // background-color: black;
+      // padding: 20px;
+      // opacity: 0.6;
+      // border-radius: 50%;
+      // z-index: 1;
+    }
+
+    &:nth-child(1) {
+      top: 140px;
+    }
+
+    &:nth-child(2) {
+      top: 160px;
+    }
+
+    &:nth-child(3) {
+      top: 180px;
+    }
+  }
+}

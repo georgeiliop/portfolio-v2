@@ -1,0 +1,71 @@
+@import "../../assets/global.scss";
+
+.header {
+  background-color: $mainColor;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  transition: all 0.1s ease;
+  top: 0;
+  z-index: 3;
+
+  &.active {
+    color: $mainColor;
+  }
+
+  &.sticky {
+    position: sticky;
+    opacity: 1; /* Fully visible when sticky */
+    transform: translateY(0); /* Return to original position */
+    animation: fadeInTop 0.3s ease-in-out; /* Trigger the fade-in from top animation */
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .link-reset {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .link {
+      font-size: 24px;
+    }
+  }
+  .isOnHeader {
+    display: none;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-family: "drover", sans-serif;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* Start from slightly above */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at original position */
+  }
+}

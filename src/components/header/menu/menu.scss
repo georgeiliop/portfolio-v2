@@ -1,0 +1,125 @@
+@import "../../../assets/global.scss";
+
+.burgerMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+
+  span {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    transform-origin: left;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+
+  &:hover {
+    transform: scale(0.85);
+    span {
+      &:first-child {
+        transform: translatey(2px);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:last-child {
+        transform: translatey(-2px);
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .burger-menu-wrapper {
+    display: none;
+  }
+}
+
+.active {
+  .burgerMenu {
+    span {
+      &:first-child {
+        background-color: $mainColor;
+        transform: rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:last-child {
+        background-color: $mainColor;
+        transform: rotate(-45deg);
+      }
+    }
+    // &:hover {
+    //   span {
+    //     &:first-child {
+    //       background-color: $secColor;
+    //     }
+    //     &:last-child {
+    //       background-color: $secColor;
+    //     }
+    //   }
+    // }
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: black;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  height: 100vh;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1;
+  // color: $mainColor;
+  &.active {
+    visibility: visible;
+    opacity: 1; /* Fully visible when open */
+    transition: all 0.3s ease;
+  }
+
+  .extras-button-menu {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  // &.active {
+  //   left: 0;
+  // }
+
+  // ul {
+  //   margin: 0;
+  //   padding: 0;
+  //   list-style: none;
+  //   font-size: 30px;
+  //   color: black;
+  //   font-weight: 300;
+  //   width: 60%;
+
+  //   li {
+  //     margin-bottom: 20px;
+  //     transition: all 0.5s ease;
+  //     .nav--link {
+  //       font-size: inherit;
+  //       color: inherit;
+  //     }
+
+  //     &:hover {
+  //       font-weight: 500;
+  //       color: $secColor;
+  //     }
+  //   }
+  // }
+}

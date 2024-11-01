@@ -1,0 +1,79 @@
+@import "../../assets/global.scss";
+
+.footer {
+  background-color: $mainColor;
+  padding: 2vh 2vw;
+  border-top: 1px black solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  &.hide {
+    display: none;
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 44vw;
+  max-width: 700px;
+  align-items: center;
+
+  p {
+    font-weight: 300;
+    font-size: calc(14px + 0.2vw);
+    letter-spacing: 1px;
+    width: 100%;
+    font-family: "neue-haas-display", sans-serif;
+  }
+}
+.button-wrapper {
+  display: flex;
+  gap: 4vw;
+  button {
+    border: none;
+    background-color: transparent;
+    font-family: drover, sans-serif;
+    font-size: calc(16px + 0.6vw);
+    position: relative;
+
+    .button-selected {
+      display: none;
+      top: -25px;
+      left: -20px;
+      position: absolute;
+      font-family: wild-west-icons;
+      font-size: 45px;
+    }
+
+    &:hover {
+      .button-selected {
+        display: block;
+      }
+
+      cursor: pointer;
+    }
+  }
+}
+
+.cactus-icon {
+  font-family: wild-west-icons;
+  font-size: 224px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    padding: 4vh 6vw;
+  }
+
+  .text-wrapper {
+    width: auto;
+    max-width: auto;
+    padding-bottom: 20px;
+  }
+}

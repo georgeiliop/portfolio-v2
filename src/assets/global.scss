@@ -1,0 +1,18 @@
+$mainColor: #dda15e;
+
+$secColor: #ad2831;
+$thirdColor: #fff3d6;
+$extraRed: #ff0303;
+
+$pagePaddingHorizontal: 5vw;
+$pagePaddingVertical: 10vh;
+
+$sectionPadding: 10vh;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
+/*$mainColor: #ffa703;*/

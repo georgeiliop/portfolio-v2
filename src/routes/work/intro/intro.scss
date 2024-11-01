@@ -1,0 +1,36 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  //   padding-top: 10vw;
+  //   padding-bottom: 10vw;
+  //   border: 3px red solid;
+  height: 80vh;
+  min-height: 600px;
+}
+.intro-text {
+  margin: 0;
+  padding: 0;
+  font-size: calc(24px + 0.4vw);
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-family: "neue-haas-display", sans-serif;
+  max-width: 1000px;
+}
+
+.text-icons-container {
+  display: flex;
+  //   border: 3px green solid;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  padding-top: 4vh;
+}
+
+.text-icon {
+  font-family: wild-west-icons, sans-serif;
+  transition: transform 0.2s ease-out;
+  //   font-size: calc(84px + 8vw);
+}
