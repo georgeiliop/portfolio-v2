@@ -10,7 +10,7 @@ import AnimatedCursor from "react-animated-cursor";
 const App = () => {
   return (
     <div className="app">
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={8}
         outerSize={38}
         innerScale={1}
@@ -25,7 +25,7 @@ const App = () => {
           border: "3px solid var(--cursor-color)",
           borderRadius: "0px",
         }}
-      />
+      /> */}
 
       <Routes>
         <Route path="/" element={<Header />}>
