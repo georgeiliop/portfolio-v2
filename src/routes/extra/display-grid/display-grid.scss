@@ -50,7 +50,7 @@
   width: 90%;
   font-size: calc(10px + 0.2vw);
   pointer-events: none;
-  z-index: 2;
+  z-index: 1;
   max-width: 800px;
 
   @media (max-width: 767px) {
