@@ -33,7 +33,7 @@
 }
 .button-wrapper {
   display: flex;
-  gap: 4vw;
+  gap: calc(30px + 4vw);
   button {
     border: none;
     background-color: transparent;
