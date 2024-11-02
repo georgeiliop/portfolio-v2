@@ -48,6 +48,6 @@ export const images = [
   },
   {
     src: img10,
-    description: "The final frame from Dead Proof (2007)",
+    description: "The final frame from Death Proof (2007)",
   },
 ];
