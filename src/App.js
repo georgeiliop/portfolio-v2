@@ -6,10 +6,11 @@ import About from "./routes/about/About";
 import Footer from "./components/footer/Footer";
 import Extra from "./routes/extra/Extra";
 import "./assets/global.scss";
+import AnimatedCursor from "react-animated-cursor";
 const App = () => {
   return (
     <div className="app">
-      {/* <AnimatedCursor
+      <AnimatedCursor
         innerSize={8}
         outerSize={38}
         innerScale={1}
@@ -24,7 +25,7 @@ const App = () => {
           border: "3px solid var(--cursor-color)",
           borderRadius: "0px",
         }}
-      /> */}
+      />
 
       <Routes>
         <Route path="/" element={<Header />}>
