@@ -9,13 +9,13 @@ const projects = [
   {
     name: "Learning App",
     img: learningAppImg,
-    tags: ["React", " React Native"],
+    tags: ["React"],
     link: "https://github.com/georgeiliop/learning-app",
   },
   {
     name: "Rick and Morty Finder App",
     img: RickAppImage,
-    tags: ["React", "React Native"],
+    tags: ["React"],
     link: "https://github.com/georgeiliop/Rick-Morty-finder-app",
   },
 ];
