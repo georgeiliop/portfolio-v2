@@ -25,6 +25,7 @@ const App = () => {
           borderRadius: "0px",
         }}
       /> */}
+
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Work />} />
@@ -32,6 +33,7 @@ const App = () => {
         </Route>
         <Route path="/extra" element={<Extra />} />
       </Routes>
+
       <Footer />
     </div>
   );
