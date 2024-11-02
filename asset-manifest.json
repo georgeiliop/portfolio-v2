@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-v2/static/css/main.b1b8493a.css",
+    "main.js": "/portfolio-v2/static/js/main.6d4b90d2.js",
+    "static/js/453.06d365eb.chunk.js": "/portfolio-v2/static/js/453.06d365eb.chunk.js",
+    "static/media/9.jpg": "/portfolio-v2/static/media/9.89ca9f87a6ff8fac90a4.jpg",
+    "static/media/rick_morty.png": "/portfolio-v2/static/media/rick_morty.1509435c15b9eaa4ff5b.png",
+    "static/media/Wild West Icons.ttf": "/portfolio-v2/static/media/Wild West Icons.d2246abcca31d44baa3e.ttf",
+    "static/media/1.jpg": "/portfolio-v2/static/media/1.19bc40a329268498dce4.jpg",
+    "static/media/profile-pic.jpg": "/portfolio-v2/static/media/profile-pic.14dd9dadb8572e417c54.jpg",
+    "static/media/10.jpg": "/portfolio-v2/static/media/10.d58137e33fb61104d233.jpg",
+    "static/media/3.jpg": "/portfolio-v2/static/media/3.d9d95826054613c94ebf.jpg",
+    "static/media/8.jpg": "/portfolio-v2/static/media/8.f1c225d60a389c19e675.jpg",
+    "static/media/2.png": "/portfolio-v2/static/media/2.3f5aa512ec111dd89d5a.png",
+    "static/media/NeueHaasDisplayBold.ttf": "/portfolio-v2/static/media/NeueHaasDisplayBold.bd0789975a9335536bb2.ttf",
+    "static/media/NeueHaasDisplayMediu.ttf": "/portfolio-v2/static/media/NeueHaasDisplayMediu.32921edb532f55cbfdc6.ttf",
+    "static/media/NeueHaasDisplayLight.ttf": "/portfolio-v2/static/media/NeueHaasDisplayLight.46f0c2f76453ff7dcfba.ttf",
+    "static/media/NeueHaasDisplayBlack.ttf": "/portfolio-v2/static/media/NeueHaasDisplayBlack.23d846a281c75daeff53.ttf",
+    "static/media/6.jpg": "/portfolio-v2/static/media/6.1a48043837cf755d9ecd.jpg",
+    "static/media/learning.png": "/portfolio-v2/static/media/learning.f91e5515d6f90d3232ec.png",
+    "static/media/5.jpg": "/portfolio-v2/static/media/5.efc645219ff3621107fa.jpg",
+    "static/media/4.jpg": "/portfolio-v2/static/media/4.93dc13c2aafed749dbee.jpg",
+    "static/media/drover.ttf": "/portfolio-v2/static/media/drover.7ec439ed96aa2c284436.ttf",
+    "static/media/Vanilla Whale.otf": "/portfolio-v2/static/media/Vanilla Whale.f9dc527f2417333d9616.otf",
+    "static/media/7.jpg": "/portfolio-v2/static/media/7.3fc8f80960707b07bc9f.jpg",
+    "index.html": "/portfolio-v2/index.html",
+    "main.b1b8493a.css.map": "/portfolio-v2/static/css/main.b1b8493a.css.map",
+    "main.6d4b90d2.js.map": "/portfolio-v2/static/js/main.6d4b90d2.js.map",
+    "453.06d365eb.chunk.js.map": "/portfolio-v2/static/js/453.06d365eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1b8493a.css",
+    "static/js/main.6d4b90d2.js"
+  ]
+}
