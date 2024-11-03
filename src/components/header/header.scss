@@ -31,9 +31,23 @@
   align-items: center;
   gap: 20px;
 
+  button {
+    all: unset; /* Removes all default styles */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    display: inline-flex; /* Centers the icon within the button */
+    align-items: center;
+    justify-content: center;
+  }
+
   .link-reset {
     text-decoration: none;
     color: inherit;
+  }
+
+  .button-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }
 

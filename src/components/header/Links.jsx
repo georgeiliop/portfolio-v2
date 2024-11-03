@@ -30,9 +30,11 @@ const Links = ({ isOnHeader, handleMenu }) => {
         href="https://www.linkedin.com/in/giorgos-iliopoulos-389704193/"
         target="_blank"
         rel="noopener noreferrer"
-        className="link-reset"
+        className="link-reset button-container"
       >
-        <FontAwesomeIcon className="link" icon={faLinkedin} size="lg" />
+        <button>
+          <FontAwesomeIcon className="link" icon={faLinkedin} size="lg" />
+        </button>
       </a>
     </nav>
   );
