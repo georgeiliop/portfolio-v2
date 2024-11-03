@@ -32,7 +32,7 @@ const Links = ({ isOnHeader, handleMenu }) => {
         rel="noopener noreferrer"
         className="link-reset button-container"
       >
-        <div>
+        <div style={{ backgroundColor: "red" }}>
           <FontAwesomeIcon icon={faLinkedin} size="10x" />
         </div>
       </a>
