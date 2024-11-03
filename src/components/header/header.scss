@@ -48,6 +48,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    pointer-events: auto; /* Ensures the link is clickable */
     // border: 1px solid red;
   }
 }
