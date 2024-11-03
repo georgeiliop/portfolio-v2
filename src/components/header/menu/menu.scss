@@ -19,20 +19,20 @@
     transition: all 0.5s ease;
   }
 
-  &:hover {
-    transform: scale(0.85);
-    span {
-      &:first-child {
-        transform: translatey(2px);
-      }
-      &:nth-child(2) {
-        opacity: 0;
-      }
-      &:last-child {
-        transform: translatey(-2px);
-      }
-    }
-  }
+  // &:hover {
+  //   transform: scale(0.85);
+  //   span {
+  //     &:first-child {
+  //       transform: translatey(2px);
+  //     }
+  //     &:nth-child(2) {
+  //       opacity: 0;
+  //     }
+  //     &:last-child {
+  //       transform: translatey(-2px);
+  //     }
+  //   }
+  // }
 }
 @media (min-width: 768px) {
   .burger-menu-wrapper {

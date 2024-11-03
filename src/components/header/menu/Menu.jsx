@@ -5,6 +5,7 @@ import ExtrasButton from "../../extras button/ExtrasButton";
 
 const Menu = ({ showMenu, setShowMenu }) => {
   const handleMenu = () => {
+    // console.log("handle menu pressed", showMenu);
     setShowMenu((prev) => !prev);
   };
 
