@@ -33,7 +33,7 @@ const Links = ({ isOnHeader, handleMenu }) => {
         className="link-reset button-container"
       >
         <div style={{ backgroundColor: "red" }}>
-          <FontAwesomeIcon icon={faLinkedin} size="10x" />
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </div>
       </a>
     </nav>

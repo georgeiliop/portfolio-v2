@@ -43,6 +43,12 @@ export const items = [
     link: "https://playvalorant.com/en-gb/",
   },
   {
+    title: "Riot's UI design",
+    type: "article.",
+    link: "https://www.riotgames.com/en/artedu/user-interface-design",
+  },
+
+  {
     title: "I Gonna Make A Hit",
     type: "song",
     artist: "La Femme",
