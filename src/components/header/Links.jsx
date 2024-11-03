@@ -26,16 +26,16 @@ const Links = ({ isOnHeader, handleMenu }) => {
       >
         About
       </NavLink>
-      <a
-        href="https://www.linkedin.com/in/giorgos-iliopoulos-389704193/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link-reset button-container"
-      >
-        <div style={{ backgroundColor: "red" }}>
+      <div style={{ backgroundColor: "red" }}>
+        <a
+          href="https://www.linkedin.com/in/giorgos-iliopoulos-389704193/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-reset button-container"
+        >
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
-        </div>
-      </a>
+        </a>
+      </div>
     </nav>
   );
 };
