@@ -38,9 +38,9 @@ export const items = [
     link: "https://growth.design/case-studies",
   },
   {
-    title: "Valorant",
-    type: "not only fun to play, but awesome game UI/UX (great character design too).",
-    link: "https://playvalorant.com/en-gb/",
+    title: "Arcane: Bridging the Rift",
+    type: "Behind the scenes of the Arcane show.",
+    link: "https://www.youtube.com/watch?v=Mz4-38d3-AE&list=PLbAFXJC0J5GYEkfxnGTWnvgcEypgBeAb5&ab_channel=LeagueofLegends",
   },
   {
     title: "Riot's UI design",
