@@ -22,7 +22,7 @@ const Intro = () => {
   return (
     <div className="intro">
       <h3 className="intro-text">
-        Hi! My name is Giorgos Iliopoulos. I’m a front end developer, based in
+        Hi! My name is Giorgos Iliopoulos. I’m a front end engineer, based in
         Athens. My love for UI has led me to UX, design and development of web
         apps.
         <br />
