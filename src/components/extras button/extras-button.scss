@@ -9,6 +9,9 @@
   text-decoration: none;
   color: inherit;
   z-index: 2;
+  line-height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   // line-height: 500px;
 
@@ -30,15 +33,15 @@
     }
 
     &:nth-child(1) {
-      top: 140px;
+      top: -30px;
     }
 
     &:nth-child(2) {
-      top: 160px;
+      top: -10px;
     }
 
     &:nth-child(3) {
-      top: 180px;
+      top: 10px;
     }
   }
 }

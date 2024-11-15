@@ -35,7 +35,7 @@ const Menu = ({ showMenu, setShowMenu }) => {
       <div className={`menu ${showMenu ? "active" : ""}`}>
         <Links handleMenu={handleMenu} />
         <div className="extras-button-menu">
-          <ExtrasButton scale={0.7} handleMenu={handleMenu} />
+          <ExtrasButton handleMenu={handleMenu} />
         </div>
       </div>
     </div>

@@ -34,12 +34,14 @@
 .button-wrapper {
   display: flex;
   gap: calc(30px + 4vw);
+
   button {
     border: none;
     background-color: transparent;
     font-family: drover, sans-serif;
     font-size: calc(16px + 0.6vw);
     position: relative;
+    color: black;
 
     .button-selected {
       display: none;

@@ -45,10 +45,7 @@ const Extra = () => {
         <SecondGrid />
       </section>
       <div className="extras-button-container">
-        <ExtrasButton
-          //   scale={0.4 + (window.innerWidth / 1000) * 0.2}
-          backToHome={true}
-        />
+        <ExtrasButton backToHome={true} />
       </div>
     </div>
   );

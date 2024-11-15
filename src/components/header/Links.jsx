@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 import "./header.scss";
+import { LinkedIn } from "@mui/icons-material";
 const Links = ({ isOnHeader, handleMenu }) => {
   return (
     <nav className={`links ${isOnHeader ? "isOnHeader" : ""}`}>
@@ -31,9 +31,9 @@ const Links = ({ isOnHeader, handleMenu }) => {
         href="https://www.linkedin.com/in/giorgos-iliopoulos-389704193/"
         target="_blank"
         rel="noopener noreferrer"
-        className="link-reset button-container"
+        className="link-reset button-container "
       >
-        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        <LinkedIn fontSize="inherit" />
       </a>
       {/* </div> */}
     </nav>

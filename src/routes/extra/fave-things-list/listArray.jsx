@@ -1,6 +1,6 @@
 export const items = [
   {
-    title: "Paperbakcs from Hell",
+    title: "Paperbacks from Hell",
     type: "book",
     author: "Grady Hendrix",
     link: "https://www.amazon.com/Paperbacks-Hell-Twisted-History-Fiction/dp/1594749817",

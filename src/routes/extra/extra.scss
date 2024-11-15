@@ -64,16 +64,18 @@
 
   .extras-button-container {
     position: fixed;
-    bottom: -100px;
+    bottom: -40px;
     right: 2vw;
 
     @media (max-width: 767px) {
       transform: scale(0.8);
+      bottom: -60px;
     }
 
     @media (max-width: 479px) {
       transform: scale(0.5);
       right: -4vw;
+      bottom: -90px;
     }
   }
 }

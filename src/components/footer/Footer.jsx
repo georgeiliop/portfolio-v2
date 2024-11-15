@@ -10,10 +10,10 @@ const Footer = () => {
     >
       <div className="text-wrapper">
         <p>
-          I have been enjoying UI from my gaming consoles, to all my phones and
-          laptops. I guess its something that my brain chose to be excited
-          about. Computer science student, country lover, horror movie
-          enthusiast, walking enjoyer.
+          I have been enjoying UI throughout my life, from my gaming consoles to
+          all my phones and laptops. I guess its something that my brain chose
+          to be excited about. Computer science student, country lover, horror
+          movie enthusiast, walking enjoyer.
         </p>
         <p>Living and creating in Athens.</p>
       </div>

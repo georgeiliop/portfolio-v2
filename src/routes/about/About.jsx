@@ -26,7 +26,7 @@ const About = () => {
           <p className="profile-text">
             Growing up on games, music and movies I always looked at the
             interfaces that helped me get entertained or get things done. It
-            motivated me to see what it takes to create something useful and
+            motivated me to engage and see how to create something useful and
             beautiful.
           </p>
           <p className="profile-text">

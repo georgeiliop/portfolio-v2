@@ -1,14 +1,10 @@
 import { Link } from "react-router-dom";
 import "./extras-button.scss";
 
-const ExtrasButton = ({ scale, backToHome }) => {
+const ExtrasButton = ({ backToHome }) => {
   const text = backToHome ? "HOME!" : "EXTRA!";
   return (
-    <Link
-      to={backToHome ? "/" : "extra"}
-      className="extras-button"
-      style={scale ? { transform: `scale(${scale})` } : {}}
-    >
+    <Link to={backToHome ? "/" : "extra"} className="extras-button">
       Î<div className={`text ${backToHome ? "back-to-home" : ""}`}>{text}!</div>
       <div className={`text ${backToHome ? "back-to-home" : ""}`}>{text}!</div>
       <div className={`text ${backToHome ? "back-to-home" : ""}`}>{text}!</div>
