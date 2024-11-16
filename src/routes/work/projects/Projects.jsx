@@ -2,26 +2,30 @@ import ExtrasButton from "../../../components/extras button/ExtrasButton";
 import SectionTitle from "../../../components/section-title/SectionTitle";
 import Project from "./project/Project";
 import "./projects.scss";
-import learningAppImg from "../../../assets/images/project-images/learning.png";
-import RickAppImage from "../../../assets/images/project-images/rick_morty.png";
-
-const projects = [
-  {
-    name: "Learning App",
-    img: learningAppImg,
-    tags: ["React"],
-    link: "https://github.com/georgeiliop/learning-app",
-  },
-  {
-    name: "Rick and Morty Finder App",
-    img: RickAppImage,
-    tags: ["React"],
-    link: "https://github.com/georgeiliop/Rick-Morty-finder-app",
-  },
-];
+import { projectList } from "../../../assets/projectList";
+// const projects = [
+//   {
+//     route: "learning-app",
+//     title: "Learning App",
+//     img: learningAppImg,
+//     tags: ["React"],
+//     link: "https://github.com/georgeiliop/learning-app",
+//   },
+//   {
+//     route: "rick-morty-finder",
+//     title: "Rick and Morty Finder App",
+//     img: RickAppImage,
+//     tags: ["React"],
+//     link: "https://github.com/georgeiliop/Rick-Morty-finder-app",
+//   },
+// ];
 
 const ProjectList = () => {
-  return projects.map((project, index) => {
+  const projectsArray = Object.entries(projectList).map(([key, value]) => ({
+    ...value,
+    name: key,
+  }));
+  return projectsArray.map((project, index) => {
     return <Project project={project} key={project.name} index={index} />;
   });
 };

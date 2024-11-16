@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: calc(15px + 0.5vw);
+  margin-bottom: calc(30px + 2vw);
+  .title {
+    h3 {
+      font-family: "neue-haas-display", sans-serif;
+      font-weight: 300;
+      font-size: calc(21px + 0.8vw);
+      font-weight: 500;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+    }
+  }
+
+  p {
+    font-family: "neue-haas-display", sans-serif;
+    font-weight: 300;
+    font-size: calc(18px + 0.8vw);
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+    border-radius: 25px;
+    border: 1px solid black;
+
+    @media (max-width: 767px) {
+      border-radius: 12px;
+    }
+  }
+}

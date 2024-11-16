@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer";
 import Extra from "./routes/extra/Extra";
 import "./assets/global.scss";
 import AnimatedCursor from "react-animated-cursor";
+import Project from "./routes/project/Project";
 const App = () => {
   return (
     <div className="app">
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/" element={<Header />}>
           <Route index element={<Work />} />
           <Route path="about" element={<About />} />
+          <Route path="/project/:projectName" element={<Project />} />
         </Route>
         <Route path="/extra" element={<Extra />} />
       </Routes>
