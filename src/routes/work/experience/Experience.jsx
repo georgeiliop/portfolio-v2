@@ -36,9 +36,7 @@ const Experience = () => {
         })}
       </div>
       <div className="tire-container">
-        <div className="tire-icon" style={{ fontSize: `calc(84px + 4vw)` }}>
-          @
-        </div>
+        <div className="tire-icon">@</div>
       </div>
     </div>
   );

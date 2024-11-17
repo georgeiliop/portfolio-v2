@@ -36,7 +36,6 @@ const App = () => {
         </Route>
         <Route path="/extra" element={<Extra />} />
       </Routes>
-
       <Footer />
     </div>
   );

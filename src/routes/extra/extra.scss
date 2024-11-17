@@ -21,11 +21,7 @@
     }
 
     @media (max-width: 767px) {
-      flex-wrap: wrap; // Enable wrapping when viewport is below 900px
-    }
-
-    @media (min-width: 1200px) {
-      //   grid-column-gap: 0px;
+      flex-wrap: wrap;
     }
 
     .title {
