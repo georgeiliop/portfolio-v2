@@ -21,7 +21,7 @@ const DesignSection = ({ designContent }) => {
   return (
     <section>
       <div className="section-title">
-        <SectionTitle title={"Design"} />
+        <SectionTitle title={"Design"} size={"lg"} />
       </div>
 
       {designContent.map((section, index) => {
@@ -46,7 +46,7 @@ const CodeSection = ({ codeContent }) => {
   return (
     <section>
       <div className="section-title">
-        <SectionTitle title={"Code"} />
+        <SectionTitle title={"Code"} size={"lg"} />
       </div>
 
       {codeContent.map((section, index) => {

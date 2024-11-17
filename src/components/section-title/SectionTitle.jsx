@@ -1,7 +1,7 @@
 import "./section-title.scss";
 
-const SectionTitle = ({ title }) => {
-  return <div className="title">{title}</div>;
+const SectionTitle = ({ title, size }) => {
+  return <div className={`title ${size ? size : ""}`}>{title}</div>;
 };
 
 export default SectionTitle;
