@@ -3,6 +3,11 @@
   flex-direction: column;
   gap: calc(15px + 0.5vw);
   margin-bottom: calc(30px + 8vw);
+
+  &.last {
+    margin-bottom: calc(10px + 4vw);
+  }
+
   .title {
     h3 {
       font-family: "neue-haas-display", sans-serif;

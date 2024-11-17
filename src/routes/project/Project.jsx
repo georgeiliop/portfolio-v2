@@ -31,9 +31,13 @@ const DesignSection = ({ designContent }) => {
             description={section.description}
             subtitle={section.subtitle}
             subtitleDescription={section.subtitleDescription}
+            isLast={designContent.length === index + 1}
           />
         );
       })}
+      <div className="icons-container single-icon">
+        <div className="icon ">J</div>
+      </div>
     </section>
   );
 };
@@ -52,9 +56,14 @@ const CodeSection = ({ codeContent }) => {
             description={section.description}
             subtitle={section.subtitle}
             subtitleDescription={section.subtitleDescription}
+            isLast={codeContent.length === index + 1}
           />
         );
       })}
+      <div className="icons-container">
+        <div className="icon ">5</div>
+        <div className="icon ">6</div>
+      </div>
     </section>
   );
 };
@@ -95,7 +104,7 @@ const Project = () => {
         <img src={project.imageUrl} alt={project.title} />
 
         <div className="icons-container">
-          <div className="icon cactus">n</div>
+          <div className="icon">n</div>
           <div className="icon horse">?</div>
         </div>
       </div>

@@ -6,6 +6,7 @@
   padding: $pagePaddingVertical $pagePaddingHorizontal;
 
   .intro-container {
+    margin-bottom: calc(40px + 4vw);
     .title {
       display: flex;
       align-items: center;
@@ -46,27 +47,6 @@
         border-radius: 12px;
       }
     }
-
-    .icons-container {
-      display: flex;
-      flex: 1;
-      justify-content: space-between;
-      margin-left: 2vw;
-      margin-right: 2vw;
-
-      align-items: center;
-      .icon {
-        font-family: wild-west-icons;
-      }
-
-      .cactus {
-        font-size: calc(70px + 8vw);
-      }
-
-      .horse {
-        font-size: calc(50px + 8vw);
-      }
-    }
   }
 
   .content-wrapper {
@@ -76,6 +56,31 @@
 
     .section-title {
       margin-bottom: calc(15px + 1vw);
+    }
+  }
+
+  .icons-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    align-items: center;
+
+    &.single-icon {
+      justify-content: center;
+    }
+    .icon {
+      font-family: wild-west-icons;
+      font-size: calc(70px + 8vw);
+    }
+
+    .cactus {
+      font-size: calc(70px + 8vw);
+    }
+
+    .horse {
+      font-size: calc(50px + 8vw);
     }
   }
 }
