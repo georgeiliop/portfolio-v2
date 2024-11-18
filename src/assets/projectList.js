@@ -8,6 +8,12 @@ import portfolioStructure from "./images/project-images/portfolio-v2-structure.p
 import portfolioHeader from "./images/project-images/portfolio-v2-header.png";
 import portfolioMotion from "./images/project-images/portfolio-v2-motion.png";
 import portfolioResponsive from "./images/project-images/portfolio-v2-responsive.png";
+import tipsplitIntro from "./images/project-images/tipsplit-intro.png";
+import tipsplitLoFi from "./images/project-images/tipsplit-lo-fi.png";
+import tipslitHiFi from "./images/project-images/tipsplit-hi-fi.png";
+import tipsplitDesign from "./images/project-images/tipsplit-design.png";
+import tipsplitSitemap from "./images/project-images/tipsplit-sitemap.png";
+import tipsplitTaskflow from "./images/project-images/tipsplit-task-flow.png";
 
 export const projectList = {
   "portfolio-v2": {
@@ -74,6 +80,80 @@ export const projectList = {
       },
     ],
   },
+  tipsplit: {
+    number: "02",
+    title: "Tipsplit",
+    description:
+      "Currently the project I'm working on. I will share more about it very shortly.",
+    imageUrl: tipsplitIntro,
+    tags: [
+      "React-Native",
+      "Expo",
+      "SASS",
+      "Tamagui",
+      "Typescript",
+      "UI/UX",
+      "Figma",
+    ],
+    link: "https://github.com/georgeiliop/tipsplit",
+    designContent: [
+      {
+        subtitle: "Sitemap",
+        subtitleDescription: "",
+        img: tipsplitSitemap,
+        description: "",
+      },
+      {
+        subtitle: "Taskflow",
+        subtitleDescription: "",
+        img: tipsplitTaskflow,
+        description: "",
+      },
+      {
+        subtitle: "Low Fidality Wireframes",
+        subtitleDescription: "",
+        img: tipsplitLoFi,
+        description: "",
+      },
+      {
+        subtitle: "Kit",
+        subtitleDescription: "",
+        img: tipsplitDesign,
+        description: "",
+      },
+      {
+        subtitle: "High Fidality Wireframes",
+        subtitleDescription: "",
+        img: tipslitHiFi,
+        description: "",
+      },
+    ],
+    // codeContent: [
+    //   {
+    //     subtitle: "Structure",
+    //     subtitleDescription: "",
+    //     // img: portfolioStructure,
+    //     description: "",
+    //   },
+    // {
+    //   subtitle: "Header & Menu",
+    //   subtitleDescription: "",
+    //   img: portfolioHeader,
+    //   description: "",
+    // },
+    // {
+    //   subtitle: "Motion",
+    //   subtitleDescription: "",
+    //   img: portfolioMotion,
+    // },
+    // {
+    //   subtitle: "Responsive design",
+    //   subtitleDescription: "",
+    //   img: portfolioResponsive,
+    //   description: "",
+    // },
+    // ],
+  },
   "learning-app": {
     number: "01",
     title: "Learning App",
@@ -95,36 +175,67 @@ export const projectList = {
   },
 };
 
-// "learning-app": {
-//     number: "01",
-//     route: "learning-app",
-//     title: "Learning App",
-//     description: "This is the description for Project 1.",
-//     imageUrl: learningAppImg,
-//     tags: ["React", "React Native", "SCSS", "Typescript", "UI/UX"],
-//     link: "https://github.com/georgeiliop/learning-app",
-//     designContent: [
-//       {
-//         subtitle: "UI/UX",
-//         subtitleDescription: "This is the description for Project 2.",
-//         img: learningAppImg,
-//         description: "This is the description for Project 2.",
-//       },
-//       {
-//         img: learningAppImg,
-//         description: "This is the description for Project 2.",
-//       },
-//     ],
-//     codeContent: [
-//       {
-//         subtitle: "Subtitle",
-//         subtitleDescription: "This is the description for Project 2.",
-//         img: RickAppImage,
-//         description: "This is the description for Project 2.",
-//       },
-//       {
-//         img: RickAppImage,
-//         description: "This is the description for Project 2.",
-//       },
-//     ],
-//   },
+// "portfolio-v2": {
+//   number: "01",
+//   title: "Portfolio V2",
+//   description:
+//     "",
+//   imageUrl: portfolioIntro,
+//   tags: ["React", "SASS", "UI", "Figma"],
+//   link: "https://github.com/georgeiliop/portfolio-v2",
+//   designContent: [
+//     {
+//       subtitle: "Kit",
+//       subtitleDescription:
+//         "",
+//       img: portfolioDesign,
+//       description:
+//         ",
+//     },
+//     {
+//       subtitle: "High Fidality Wireframes",
+//       subtitleDescription:
+//         "",
+//       img: portfolioDesignHifi,
+//       description:
+//         "",
+//     },
+//     {
+//       img: portfolioDesignHifiMobile,
+//       description:
+//         "",
+//     },
+//   ],
+//   codeContent: [
+//     {
+//       subtitle: "Structure",
+//       subtitleDescription:
+//         "",
+//       img: portfolioStructure,
+//       description:
+//         "",
+//     },
+//     {
+//       subtitle: "Header & Menu",
+//       subtitleDescription:
+//         "",
+//       img: portfolioHeader,
+//       description:
+//         "",
+//     },
+//     {
+//       subtitle: "Motion",
+//       subtitleDescription:
+//         "",
+//       img: portfolioMotion,
+//     },
+//     {
+//       subtitle: "Responsive design",
+//       subtitleDescription:
+//         "",
+//       img: portfolioResponsive,
+//       description:
+//         "",
+//     },
+//   ],
+// },
