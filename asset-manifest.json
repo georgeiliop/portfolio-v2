@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-v2/static/css/main.659fb9ce.css",
-    "main.js": "/portfolio-v2/static/js/main.fae33ee9.js",
+    "main.js": "/portfolio-v2/static/js/main.9fd76505.js",
     "static/js/453.06d365eb.chunk.js": "/portfolio-v2/static/js/453.06d365eb.chunk.js",
     "static/media/9.jpg": "/portfolio-v2/static/media/9.89ca9f87a6ff8fac90a4.jpg",
     "static/media/rick_morty.png": "/portfolio-v2/static/media/rick_morty.ad82c653c1fcee56ef98.png",
     "static/media/portfolio-v2-design-hifi-mobile.png": "/portfolio-v2/static/media/portfolio-v2-design-hifi-mobile.11b212541bb46cce1ee4.png",
+    "static/media/tipsplit-hi-fi.png": "/portfolio-v2/static/media/tipsplit-hi-fi.b5fdddf2d561333faf11.png",
     "static/media/Wild West Icons.ttf": "/portfolio-v2/static/media/Wild West Icons.d2246abcca31d44baa3e.ttf",
+    "static/media/tipsplit-lo-fi.png": "/portfolio-v2/static/media/tipsplit-lo-fi.3f746295b669ec56df03.png",
     "static/media/portfolio-v2-intro.png": "/portfolio-v2/static/media/portfolio-v2-intro.2d036ba93e77f68a2ca7.png",
     "static/media/1.jpg": "/portfolio-v2/static/media/1.19bc40a329268498dce4.jpg",
     "static/media/portfolio-v2-motion.png": "/portfolio-v2/static/media/portfolio-v2-motion.b20dac216d4e2dcce4f9.png",
@@ -17,6 +19,7 @@
     "static/media/portfolio-v2-structure.png": "/portfolio-v2/static/media/portfolio-v2-structure.d7758ee745876cc2f016.png",
     "static/media/profile-pic.jpg": "/portfolio-v2/static/media/profile-pic.14dd9dadb8572e417c54.jpg",
     "static/media/10.jpg": "/portfolio-v2/static/media/10.d58137e33fb61104d233.jpg",
+    "static/media/tipsplit-intro.png": "/portfolio-v2/static/media/tipsplit-intro.92969a8ddc6d1ea019e8.png",
     "static/media/3.jpg": "/portfolio-v2/static/media/3.d9d95826054613c94ebf.jpg",
     "static/media/8.jpg": "/portfolio-v2/static/media/8.f1c225d60a389c19e675.jpg",
     "static/media/portfolio-v2-design.png": "/portfolio-v2/static/media/portfolio-v2-design.4e7fbcfcc59a9bc9becb.png",
@@ -27,17 +30,20 @@
     "static/media/NeueHaasDisplayBlack.ttf": "/portfolio-v2/static/media/NeueHaasDisplayBlack.23d846a281c75daeff53.ttf",
     "static/media/6.jpg": "/portfolio-v2/static/media/6.1a48043837cf755d9ecd.jpg",
     "static/media/5.jpg": "/portfolio-v2/static/media/5.efc645219ff3621107fa.jpg",
+    "static/media/tipsplit-task-flow.png": "/portfolio-v2/static/media/tipsplit-task-flow.0e09fe6a98562d31cfeb.png",
+    "static/media/tipsplit-design.png": "/portfolio-v2/static/media/tipsplit-design.edff9ce416e64b4a4ab9.png",
     "static/media/4.jpg": "/portfolio-v2/static/media/4.93dc13c2aafed749dbee.jpg",
     "static/media/drover.ttf": "/portfolio-v2/static/media/drover.7ec439ed96aa2c284436.ttf",
     "static/media/Vanilla Whale.otf": "/portfolio-v2/static/media/Vanilla Whale.f9dc527f2417333d9616.otf",
+    "static/media/tipsplit-sitemap.png": "/portfolio-v2/static/media/tipsplit-sitemap.546795ad5fda94138a92.png",
     "static/media/7.jpg": "/portfolio-v2/static/media/7.3fc8f80960707b07bc9f.jpg",
     "index.html": "/portfolio-v2/index.html",
     "main.659fb9ce.css.map": "/portfolio-v2/static/css/main.659fb9ce.css.map",
-    "main.fae33ee9.js.map": "/portfolio-v2/static/js/main.fae33ee9.js.map",
+    "main.9fd76505.js.map": "/portfolio-v2/static/js/main.9fd76505.js.map",
     "453.06d365eb.chunk.js.map": "/portfolio-v2/static/js/453.06d365eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.659fb9ce.css",
-    "static/js/main.fae33ee9.js"
+    "static/js/main.9fd76505.js"
   ]
 }
