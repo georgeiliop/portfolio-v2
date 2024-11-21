@@ -2,14 +2,11 @@
 
 .display-grid {
   display: grid;
-
   flex: 1;
   min-width: 300px;
-
   gap: 3vw;
   padding: 20px;
   background-color: black;
-
   &.first-grid {
     grid-template-columns: repeat(2, 1fr);
   }

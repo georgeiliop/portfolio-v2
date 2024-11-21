@@ -160,7 +160,7 @@ export const projectList = {
     description:
       "A React project part of a school class. I had to create a platform that was user friendly for elementary students. Simple design with playful colors. Utilized local storage for saving data.",
     imageUrl: learningAppImg,
-    tags: ["React"],
+    tags: ["React", "Bootstrap"],
     link: "https://github.com/georgeiliop/learning-app",
   },
   "rick-morty-finder": {

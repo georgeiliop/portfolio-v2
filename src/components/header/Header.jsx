@@ -10,23 +10,22 @@ const Header = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
-    const scrollThreshold = 50; // Set the scroll threshold here
+    const scrollThreshold = 50; // scroll threshold
     if (currentScrollY === 0) {
       setIsSticky(false);
     } else if (
       currentScrollY > lastScrollY &&
       currentScrollY > 100 + scrollThreshold
     ) {
-      // Scroll down: hide the header after the threshold
+      // hide the header after the threshold
       setIsSticky(false);
     } else if (
       currentScrollY < lastScrollY &&
       currentScrollY > scrollThreshold
     ) {
-      // Scroll up: show the header after the threshold
+      //show the header after the threshold
       setIsSticky(true);
     } else if (currentScrollY <= 100) {
-      // If scroll position is less than or equal to 100
       setIsSticky(false);
     }
 

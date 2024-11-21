@@ -35,7 +35,6 @@ const Intro = () => {
           className="text-icon"
           style={{
             fontSize: `calc(84px + 8vw)`,
-            // transform: "rotate(44deg)"
             transform: `rotate(${rotation}deg)`,
           }}
         >
