@@ -28,7 +28,7 @@ const Intro = () => {
         <br />
         <br />
         I’m working towards bridging the gap between coding and design, becoming
-        a unicorn if you will.
+        a unicorn.
       </h3>
       <div className="text-icons-container">
         <div
