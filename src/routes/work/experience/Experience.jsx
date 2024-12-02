@@ -14,7 +14,6 @@ const tags = [
   "React Native",
   "UI/UX",
   "Figma",
-  "Context",
   "Reanimated",
   "React Native Paper",
 ];
