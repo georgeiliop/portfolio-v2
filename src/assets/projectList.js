@@ -84,7 +84,7 @@ export const projectList = {
     number: "02",
     title: "Tipsplit",
     description:
-      "Currently the project I'm working on. I will share more about it very shortly.",
+      "I was asked to make an app for the waiting staff of a hotel to make splitting tips easier. Currently the project I'm working on. I will share more about it very shortly.",
     imageUrl: tipsplitIntro,
     tags: [
       "React-Native",
